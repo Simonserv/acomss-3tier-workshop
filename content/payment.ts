@@ -28,9 +28,9 @@ export interface PaymentConfig {
 
 export const payment: PaymentConfig = {
   label: "Scan to pay via GCash",
-  accountName: "Acme Consulting",
+  accountName: "CodeCraft Tutoring",
   qrImageUrl: "/images/gcash-qr.png",
   instructions:
-    "Scan the QR with your GCash app, pay the amount, then upload your receipt " +
-    "so we can verify it.",
+    "Scan the QR code with your GCash app to enroll in your tutoring package, " +
+    "then upload your transaction receipt so we can verify and activate your sessions.",
 };

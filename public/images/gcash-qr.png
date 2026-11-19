@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" role="img" aria-label="GCash Payment QR Code Placeholder">
+  <defs>
+    <linearGradient id="gcashGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#005ce6" />
+      <stop offset="100%" stop-color="#003580" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="300" height="300" rx="16" fill="#ffffff" />
+  <rect x="8" y="8" width="284" height="284" rx="12" fill="none" stroke="#005ce6" stroke-width="2" />
+
+  <!-- GCash header bar -->
+  <rect x="8" y="8" width="284" height="42" rx="12" fill="url(#gcashGrad)" />
+  <rect x="8" y="30" width="284" height="20" fill="url(#gcashGrad)" />
+  <text x="150" y="34" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" text-anchor="middle" letter-spacing="1">GCash Pay</text>
+
+  <!-- Simulated QR Pattern -->
+  <g fill="#1e293b">
+    <!-- Top-Left Target -->
+    <rect x="40" y="68" width="56" height="56" rx="6" />
+    <rect x="48" y="76" width="40" height="40" rx="2" fill="#ffffff" />
+    <rect x="56" y="84" width="24" height="24" rx="2" fill="#005ce6" />
+
+    <!-- Top-Right Target -->
+    <rect x="204" y="68" width="56" height="56" rx="6" />
+    <rect x="212" y="76" width="40" height="40" rx="2" fill="#ffffff" />
+    <rect x="220" y="84" width="24" height="24" rx="2" fill="#005ce6" />
+
+    <!-- Bottom-Left Target -->
+    <rect x="40" y="196" width="56" height="56" rx="6" />
+    <rect x="48" y="204" width="40" height="40" rx="2" fill="#ffffff" />
+    <rect x="56" y="212" width="24" height="24" rx="2" fill="#005ce6" />
+
+    <!-- Data matrix dots -->
+    <rect x="112" y="72" width="16" height="16" rx="2" fill="#334155" />
+    <rect x="140" y="72" width="16" height="16" rx="2" fill="#334155" />
+    <rect x="168" y="84" width="16" height="16" rx="2" fill="#334155" />
+    <rect x="112" y="100" width="16" height="16" rx="2" fill="#334155" />
+    <rect x="148" y="112" width="20" height="20" rx="2" fill="#005ce6" />
+
+    <rect x="40" y="140" width="16" height="16" rx="2" fill="#334155" />
+    <rect x="72" y="148" width="16" height="16" rx="2" fill="#334155" />
+    <rect x="108" y="140" width="24" height="24" rx="2" fill="#334155" />
+    <rect x="148" y="148" width="16" height="16" rx="2" fill="#334155" />
+    <rect x="180" y="140" width="24" height="24" rx="2" fill="#005ce6" />
+    <rect x="220" y="148" width="16" height="16" rx="2" fill="#334155" />
+    <rect x="244" y="136" width="16" height="16" rx="2" fill="#334155" />
+
+    <rect x="112" y="180" width="16" height="16" rx="2" fill="#334155" />
+    <rect x="140" y="188" width="20" height="20" rx="2" fill="#334155" />
+    <rect x="176" y="180" width="16" height="16" rx="2" fill="#334155" />
+    <rect x="212" y="188" width="20" height="20" rx="2" fill="#334155" />
+    <rect x="244" y="180" width="16" height="16" rx="2" fill="#334155" />
+
+    <rect x="112" y="220" width="24" height="24" rx="2" fill="#334155" />
+    <rect x="152" y="228" width="16" height="16" rx="2" fill="#334155" />
+    <rect x="184" y="216" width="20" height="20" rx="2" fill="#005ce6" />
+    <rect x="220" y="224" width="20" height="20" rx="2" fill="#334155" />
+  </g>
+
+  <!-- Bottom subtitle -->
+  <text x="150" y="278" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Scan with GCash to Enroll</text>
+</svg>

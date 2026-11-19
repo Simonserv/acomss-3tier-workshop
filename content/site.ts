@@ -40,14 +40,15 @@ export interface SiteContent {
 }
 
 export const site: SiteContent = {
-  name: "Acme Consulting",
-  headline: "Software and consulting that fits your business",
-  tagline: "Web development, custom software, and expert IT consulting.",
+  name: "CodeCraft Tutoring",
+  headline: "Master modern programming with 1-on-1 expert tutoring",
+  tagline: "Personalized coding lessons, code reviews, and interview prep in Python, Web Dev, Systems, and CS fundamentals.",
   intro:
-    "We help teams ship the right software. Browse our catalog to see what we " +
-    "offer, then send us a demo request, a quote request, or a general inquiry. " +
-    "No account needed to get in touch.",
-  catalogCtaLabel: "Browse the catalog",
-  heroImage: "/images/home-hero.jpg",
-  heroImageAlt: "A team working together at a desk with laptops and notes",
+    "Whether you are starting from scratch, tackling university computer science courses, " +
+    "or preparing for software engineering interviews, get tailored 1-on-1 mentorship " +
+    "designed to accelerate your coding journey. Browse our courses to book a free intro session, " +
+    "get a custom learning plan, or request personalized mentorship.",
+  catalogCtaLabel: "Explore tutoring courses",
+  heroImage: "/images/hero-tutoring.jpg",
+  heroImageAlt: "Modern programming mentor workspace with dual screens showing code editors and tutoring session cards",
 };

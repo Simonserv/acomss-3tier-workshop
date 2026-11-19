@@ -44,42 +44,69 @@ export interface Listing {
 
 export const listings: Listing[] = [
   {
-    slug: "it-strategy-consulting",
-    title: "IT Strategy Consulting",
-    category: "CONSULTING",
-    description:
-      "Work with our consultants to map your technology roadmap, assess risk, " +
-      "and plan the systems your business needs over the next 12 months.",
-    inquiry_type: "INQUIRE",
-    image_url: "/images/placeholder-consulting.svg",
-  },
-  {
-    slug: "business-website-build",
-    title: "Business Website Build",
+    slug: "fullstack-web-development",
+    title: "Full-Stack Web Development (React & Next.js)",
     category: "WEB_DEV",
     description:
-      "A fast, modern marketing website with a content system you can update " +
-      "yourself. Request a quote and we will scope it with you.",
-    inquiry_type: "QUOTE",
-    image_url: "/images/placeholder-web-dev.svg",
+      "Master modern full-stack web development from TypeScript and React to " +
+      "Next.js, API development, and PostgreSQL. Build portfolio-ready web apps " +
+      "with live pair-programming and code reviews.",
+    inquiry_type: "DEMO",
+    image_url: "/images/course-web-dev.svg",
   },
   {
-    slug: "inventory-management-app",
-    title: "Custom Inventory Management App",
+    slug: "python-mastery-and-cs-fundamentals",
+    title: "Python Mastery & CS Fundamentals",
     category: "CUSTOM_SOFTWARE",
     description:
-      "A tailored inventory and ordering application built around your workflow. " +
-      "Book a live demo to see a working example.",
-    inquiry_type: "DEMO",
-    image_url: "/images/placeholder-custom-software.svg",
+      "Accelerate your programming fundamentals with Python. Covers object-oriented " +
+      "programming, data structures, algorithms, debugging, automation scripts, " +
+      "and problem solving for school or career.",
+    inquiry_type: "INQUIRE",
+    image_url: "/images/course-python.svg",
   },
-   {
-    slug: "Tenz Coaching,",
-    title: "Banorant Coaching ",
+  {
+    slug: "backend-systems-go-and-rust",
+    title: "Backend Systems Engineering (Go & Rust)",
+    category: "CUSTOM_SOFTWARE",
+    description:
+      "Deep dive into high-concurrency systems, microservices, thread safety, " +
+      "memory management, and distributed systems architecture using Go and Rust. " +
+      "Tailored for intermediate and advanced developers.",
+    inquiry_type: "QUOTE",
+    image_url: "/images/course-backend.svg",
+  },
+  {
+    slug: "technical-interview-and-leetcode-prep",
+    title: "SWE Technical Interview & LeetCode Coaching",
     category: "CONSULTING",
     description:
-      "From bronze to radiant.",
+      "Ace your software engineering interviews. Intensive mock interviews, " +
+      "algorithmic problem-solving patterns (graphs, dynamic programming, trees), " +
+      "Big-O analysis, and personalized feedback.",
     inquiry_type: "DEMO",
-    image_url: "/images/Banorant.png",
+    image_url: "/images/course-interview.svg",
+  },
+  {
+    slug: "code-review-and-capstone-mentorship",
+    title: "1-on-1 Code Review & Capstone Mentorship",
+    category: "CONSULTING",
+    description:
+      "Stuck on your university capstone project, personal repository, or work codebase? " +
+      "Get dedicated line-by-line code review, architecture refactoring, and " +
+      "pair-programming sessions with an experienced software engineer.",
+    inquiry_type: "INQUIRE",
+    image_url: "/images/course-mentorship.svg",
+  },
+  {
+    slug: "modern-frontend-ui-ux-design",
+    title: "Modern Frontend UI/UX & Tailwind CSS",
+    category: "WEB_DEV",
+    description:
+      "Learn how to build sleek, accessible, responsive user interfaces using " +
+      "modern CSS, Tailwind, Framer Motion, and design systems. Turn Figma designs " +
+      "into clean, production-grade frontend code.",
+    inquiry_type: "QUOTE",
+    image_url: "/images/course-frontend.svg",
   },
 ];

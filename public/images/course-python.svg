@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-label="Python Programming and Computer Science Fundamentals">
+  <defs>
+    <linearGradient id="pyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091b29" />
+      <stop offset="50%" stop-color="#0d2e46" />
+      <stop offset="100%" stop-color="#143b2a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#pyGrad)" />
+
+  <!-- Grid overlay -->
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <line x1="40" y1="0" x2="40" y2="400" />
+    <line x1="120" y1="0" x2="120" y2="400" />
+    <line x1="200" y1="0" x2="200" y2="400" />
+    <line x1="280" y1="0" x2="280" y2="400" />
+    <line x1="360" y1="0" x2="360" y2="400" />
+    <line x1="440" y1="0" x2="440" y2="400" />
+    <line x1="520" y1="0" x2="520" y2="400" />
+    <line x1="600" y1="0" x2="600" y2="400" />
+    <line x1="0" y1="80" x2="640" y2="80" />
+    <line x1="0" y1="160" x2="640" y2="160" />
+    <line x1="0" y1="240" x2="640" y2="240" />
+    <line x1="0" y1="320" x2="640" y2="320" />
+  </g>
+
+  <rect x="24" y="24" width="592" height="352" rx="16" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-opacity="0.4" />
+
+  <!-- Code editor mock -->
+  <rect x="56" y="52" width="528" height="150" rx="10" fill="#06121e" fill-opacity="0.9" stroke="#1e3a5f" stroke-width="1" />
+  <circle cx="76" cy="72" r="5" fill="#ef4444" />
+  <circle cx="94" cy="72" r="5" fill="#f59e0b" />
+  <circle cx="112" cy="72" r="5" fill="#10b981" />
+  <text x="140" y="76" fill="#64748b" font-family="'Courier New', monospace" font-size="12">algorithms.py — Python 3.12</text>
+
+  <!-- Python snippet -->
+  <text x="76" y="110" fill="#60a5fa" font-family="'Courier New', monospace" font-size="13">def <tspan fill="#facc15">binary_search</tspan>(data: list[int], target: int) -&gt; int:</text>
+  <text x="96" y="132" fill="#94a3b8" font-family="'Courier New', monospace" font-size="13">left, right = 0, len(data) - 1</text>
+  <text x="96" y="154" fill="#60a5fa" font-family="'Courier New', monospace" font-size="13">while <tspan fill="#e2e8f0">left &lt;= right: ...</tspan></text>
+  <text x="76" y="176" fill="#34d399" font-family="'Courier New', monospace" font-size="12"># Time Complexity: O(log N) • Space: O(1)</text>
+
+  <!-- Category Tag -->
+  <rect x="56" y="228" width="180" height="28" rx="14" fill="#d97706" fill-opacity="0.25" stroke="#fbbf24" stroke-width="1" />
+  <text x="146" y="247" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1">COMPUTER SCIENCE</text>
+
+  <!-- Main Title -->
+  <text x="56" y="292" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="800">Python Mastery &amp; CS Fundamentals</text>
+
+  <!-- Subtitle -->
+  <text x="56" y="324" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500">Data Structures • Algorithms • Object-Oriented Design • Automation</text>
+
+  <rect x="56" y="342" width="120" height="20" rx="4" fill="#1e293b" />
+  <text x="116" y="356" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Beginner to Pro</text>
+</svg>
